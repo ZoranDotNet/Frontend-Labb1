@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ad90313cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="checkbtn"></label>
+        <a class="logo" href="index.html">Zoran</a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="portfolio.html" class="active">PORTFOLIO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="main-container">
+            <h1>My portfolio</h1>
+            <div class="portfolio-wrapper">
+                <div class="box">
+                    <img src="/img/c-sharp-c.svg" alt="C# logo">
+                    <h3>Bank app</h3>
+                    <p>Grupparbete där vi skapade en bank</p>
+                    <a href="#bankapp" class="read-more">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="/img/html-icon.svg" alt="Html logo">
+                    <h3>Labb 1</h3>
+                    <p>Skapa en personlig hemsida utan javascript</p>
+                    <a href="#labb1" class="read-more">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="/img/css-icon.svg" alt="Css logo">
+                    <h3>Eget projekt</h3>
+                    <p>Skapat hemsida med html och css utan ramverk</p>
+                    <a href="#egetprojekt" class="read-more">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="/img/js-icon.svg" alt="Javascript logo">
+                    <h3>Labb 2</h3>
+                    <p>Bygger vidare på Labb 1. Nu även med javascript</p>
+                    <a href="#labb2" class="read-more">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="/img/React-icon.svg" alt="React logo">
+                    <h3>CV</h3>
+                    <p>Cv sida där vi använder React för första gången</p>
+                    <a href="#react" class="read-more">Read more</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="popup" id="bankapp">
+        <div class="popup-inner">
+            <h3>C# Bank app</h3>
+            <p>Som slutarbete i vår C# kurs gjorde vi ett grupparbete. Vi fick en backlog där vi skulle göra en bank.
+                Som administratör till banken skulle man kunna öppna konton, göra insättningar, överföringar samt öppna
+                konton i utländsk valuta. Vi skulle även ha olika användarkonton med olika rättigheter och login.</p>
+            <a href="#" class="popup-button">Close</a>
+        </div>
+    </div>
+    <div class="popup" id="labb1">
+        <div class="popup-inner">
+            <h3>Labb 1</h3>
+            <p>I vår Frontend kurs så ska vi bygga en egen hemsida. Vi använder endast HTML och CSS, inga ramverk.</p>
+            <a href="#" class="popup-button">Close</a>
+        </div>
+    </div>
+    <div class="popup" id="egetprojekt">
+        <div class="popup-inner">
+            <h3>Eget Projekt</h3>
+            <p>Har gjort flera egna projekt. Har byggt några sidor och börjat lära mig mer och mer. Har även testat på
+                Bootstrap och gjort några projekt.</p>
+            <a href="#" class="popup-button">Close</a>
+        </div>
+    </div>
+    <div class="popup" id="labb2">
+        <div class="popup-inner">
+            <h3>Labb 2</h3>
+            <p>Vi ska bygga vidare på Labb 1 men nu även använda lite js.</p>
+            <a href="#" class="popup-button">Close</a>
+        </div>
+    </div>
+    <div class="popup" id="react">
+        <div class="popup-inner">
+            <h3>React</h3>
+            <p>Projekt med React.</p>
+            <a href="#" class="popup-button">Close</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-wrap">
+            <p>&copy; 2024 Zoran</p>
+        </div>
+    </footer>
+</body>

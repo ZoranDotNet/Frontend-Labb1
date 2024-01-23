@@ -1,0 +1,76 @@
+body {
+  font-family: Georgia, Times, serif;
+  font-size: 10pt;
+}
+
+.navbar {
+  display: none;
+}
+
+.btn-box a {
+  display: none;
+}
+
+.home-icons a {
+  display: none;
+}
+
+.right-wrapper img {
+  width: 30%;
+  padding-top: 1rem;
+}
+
+/*
+
+ABOUT ME
+
+*/
+
+.profile-img img {
+  display: none;
+}
+
+/*
+
+CV
+
+*/
+
+.cv-wrapper img {
+  display: none;
+}
+
+/*
+
+Portfolio
+
+*/
+.box {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.box img {
+  width: 30px;
+}
+
+.popup {
+  display: none;
+}
+
+/*
+Contact
+*/
+
+.form-container {
+  margin: 1rem auto;
+  padding: 1rem 0.5rem;
+
+  form {
+    font-size: 0.5em;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

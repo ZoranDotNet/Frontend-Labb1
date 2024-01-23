@@ -393,7 +393,11 @@ nav a:hover {
 }
 
 /*
+
+
 ABOUT ME
+
+
 */
 
 .about-me {
@@ -437,6 +441,7 @@ ABOUT ME
 }
 
 /*
+
 CONTACT ME
 
 */
@@ -522,8 +527,11 @@ textarea:focus {
 }
 
 /*
+
 PORTFOLIO
+
 */
+
 .main-container {
   padding: 1rem 1rem;
   padding-bottom: 6.25rem;
@@ -587,8 +595,11 @@ PORTFOLIO
 }
 
 /*
+
 MODALS
+
 */
+
 .popup {
   opacity: 0;
   pointer-events: none;
